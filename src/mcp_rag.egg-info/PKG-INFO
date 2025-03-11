@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mcp_rag
+Version: 0.1.0
+Summary: Sistema RAG con arquitectura Model-Context-Protocol
+Author: Manuel Benitez Sanchez
+Author-email: Manuel.BENITEZ-SANCHEZ@ext.ec.europa.eu
+Requires-Python: >=3.12
+Requires-Dist: requests>=2.32.2
+Requires-Dist: python-dotenv>=1.0.0
+Requires-Dist: numpy>=1.26.4
+Requires-Dist: openai>=1.51.2
+Requires-Dist: qdrant-client>=1.13.2
+Requires-Dist: fastapi>=0.115.11
+Requires-Dist: uvicorn>=0.34.0
+Requires-Dist: pydantic>=2.5.3

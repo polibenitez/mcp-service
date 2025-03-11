@@ -1,0 +1,53 @@
+version: '3.8'
+
+services:
+  # Servicio de la base de datos vectorial Qdrant
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: qdrant
+    volumes:
+      - qdrant_data:/qdrant/storage
+    ports:
+      - "6333:6333"  # API
+      - "6334:6334"  # UI dashboard
+    networks:
+      - rag_network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:6333/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Servicio principal MCP-RAG
+  mcp-rag:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: mcp-rag
+    depends_on:
+      - qdrant
+    ports:
+      - "8000:8000"  # API del servicio
+    volumes:
+      - ./data:/app/data
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - OPENAI_API_BASE=${OPENAI_API_BASE}
+      - API_ENDPOINT=${API_ENDPOINT}
+      - QDRANT_HOST=qdrant
+      - QDRANT_PORT=6333
+      - COLLECTION_NAME=${COLLECTION_NAME:-publications}
+      - LLM_MODEL=${LLM_MODEL:-gpt-4-turbo}
+      - LLM_TEMPERATURE=${LLM_TEMPERATURE:-0.3}
+      - EMBEDDING_MODEL=${EMBEDDING_MODEL:-text-embedding-ada-002}
+    networks:
+      - rag_network
+    restart: unless-stopped
+
+volumes:
+  qdrant_data:
+    driver: local
+
+networks:
+  rag_network:
+    driver: bridge

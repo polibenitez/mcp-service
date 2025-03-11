@@ -1,0 +1,8 @@
+requests>=2.32.2
+python-dotenv>=1.0.0
+numpy>=1.26.4
+openai>=1.51.2
+qdrant-client>=1.13.2
+fastapi>=0.115.11
+uvicorn>=0.34.0
+pydantic>=2.5.3
