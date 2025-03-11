@@ -12,7 +12,9 @@ from qdrant_client import QdrantClient
 from qdrant_client.http import models
 
 # Importar configuración
-from config import load_config
+from src.config import load_config
+
+from sentence_transformers import SentenceTransformer
 
 # Cargar configuración
 config = load_config()
@@ -37,6 +39,14 @@ if OPENAI_API_BASE:
 # Inicializar clientes
 openai_client = OpenAI(**openai_client_kwargs)
 qdrant_client = QdrantClient(host=QDRANT_HOST, port=QDRANT_PORT)
+
+# Cargar un modelo preentrenado de embeddings
+model = SentenceTransformer('all-MiniLM-L6-v2')  # Un modelo ligero, pero efectivo
+
+# Función para generar embeddings
+def generate_embeddings(text):
+    embeddings = model.encode(text)  # Genera los embeddings
+    return embeddings
 
 class RAGPipeline:
     def __init__(self):
@@ -150,11 +160,12 @@ class RAGPipeline:
             return np.zeros(VECTOR_SIZE).tolist()  # Vector de ceros para texto vacío
             
         try:
-            response = openai_client.embeddings.create(
-                input=text,
-                model=EMBEDDING_MODEL
-            )
-            return response.data[0].embedding
+            #response = openai_client.embeddings.create(
+              #  input=text,
+               # model=EMBEDDING_MODEL
+            #)
+            return generate_embeddings(text=text)
+            #return response.data[0].embedding
         except Exception as e:
             print(f"Error generando embedding: {e}")
             return np.zeros(VECTOR_SIZE).tolist()  # Vector de ceros en caso de error

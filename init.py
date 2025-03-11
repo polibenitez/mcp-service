@@ -3,7 +3,8 @@ from rag_pipeline import RAGPipeline, process_local_json_file
 import requests
 import os
 # Importar configuración
-from config import load_config
+from src.config import load_config
+import json
 
 # Cargar configuración
 config = load_config()
@@ -29,11 +30,22 @@ def main():
     pipeline = RAGPipeline()
     
     # Recuperar datos de la API
-    response = requests.get('https://knowledge4policy.ec.europa.eu/api-gpt-jrc_en', proxies=proxies)
-    if response.status_code != 200:
-        logging.error(f'Error al obtener datos de la API: {response.status_code}')
-        return
-    publications = response.json()
+    #response = requests.get('https://knowledge4policy.ec.europa.eu/api-gpt-jrc_en', proxies=proxies)
+    #if response.status_code != 200:
+     #   logging.error(f'Error al obtener datos de la API: {response.status_code}')
+    #    return
+    #publications = response.json()
+
+
+    # Ruta al archivo JSON
+    archivo_json = 'data/publications.json'
+
+    # Abrir y leer el archivo JSON
+    with open(archivo_json, 'r', encoding='utf-8') as archivo:
+        publications = json.load(archivo)
+
+    # Imprimir los datos leídos
+    print(publications)
 
     # Extraer contenido relevante
     processed_documents = []

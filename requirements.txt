@@ -3,4 +3,7 @@ python-dotenv
 numpy
 openai
 qdrant-client
-requests
+fastapi
+uvicorn
+pydantic
+pytest
