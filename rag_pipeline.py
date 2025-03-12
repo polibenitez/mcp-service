@@ -13,8 +13,11 @@ from qdrant_client.http import models
 
 # Importar configuración
 from src.config import load_config
-
+from transformers.utils import logging
 from sentence_transformers import SentenceTransformer
+from tqdm import tqdm
+import time
+import torch
 
 # Cargar configuración
 config = load_config()
@@ -29,7 +32,7 @@ COLLECTION_NAME = config["COLLECTION_NAME"]
 EMBEDDING_MODEL = config["EMBEDDING_MODEL"]
 LLM_MODEL = config["LLM_MODEL"]
 LLM_TEMPERATURE = config["LLM_TEMPERATURE"]
-VECTOR_SIZE = config["VECTOR_SIZE"]
+#VECTOR_SIZE = config["VECTOR_SIZE"]
 
 # Configurar cliente OpenAI con base URL opcional
 openai_client_kwargs = {"api_key": OPENAI_API_KEY}
@@ -41,8 +44,33 @@ openai_client = OpenAI(**openai_client_kwargs)
 qdrant_client = QdrantClient(host=QDRANT_HOST, port=QDRANT_PORT)
 
 # Cargar un modelo preentrenado de embeddings
-model = SentenceTransformer('all-MiniLM-L6-v2')  # Un modelo ligero, pero efectivo
+# Función para simular el progreso de la carga
+def load_model_with_progress(model_name):
+    print(f"Cargando el modelo: {model_name}")
+    # Verificar si hay una GPU disponible
+    device = 'cuda' if torch.cuda.is_available() else 'cpu'
+    print(f"Usando dispositivo: {device}")
+    logging.set_verbosity_info()
+    # Creamos una barra de progreso
+    progress_bar = tqdm(total=100, desc="Cargando modelo", unit="%")
+    
+    # Como no podemos modificar directamente el proceso de carga del modelo,
+    # vamos a simular las actualizaciones de progreso
+    for i in range(0, 101, 10):
+        # Actualizar la barra de progreso
+        progress_bar.update(10)
+        
+        # Si estamos en el 100%, cargamos el modelo
+        if i == 100:
+            model = SentenceTransformer(model_name, device=device, trust_remote_code=True)
+    
+    progress_bar.close()
+    return model
 
+# Cargar el modelo con progreso simulado
+model = load_model_with_progress('sentence-transformers/all-MiniLM-L6-v2') #jinaai/jina-embeddings-v3  -  sentence-transformers/all-MiniLM-L6-v2
+VECTOR_SIZE = model.get_sentence_embedding_dimension()
+print("VECTOR_SIZE: "+str(VECTOR_SIZE))
 # Función para generar embeddings
 def generate_embeddings(text):
     embeddings = model.encode(text)  # Genera los embeddings
@@ -164,6 +192,7 @@ class RAGPipeline:
               #  input=text,
                # model=EMBEDDING_MODEL
             #)
+            print("generating embedings")
             return generate_embeddings(text=text)
             #return response.data[0].embedding
         except Exception as e:

@@ -1,0 +1,2117 @@
+[
+    {
+        "nid": [
+            {
+                "value": 77883
+            }
+        ],
+        "uuid": [
+            {
+                "value": "e50e34ad-1680-40e2-97fe-32938bdf8cb5"
+            }
+        ],
+        "vid": [
+            {
+                "value": 346143
+            }
+        ],
+        "langcode": [
+            {
+                "value": "en"
+            }
+        ],
+        "type": [
+            {
+                "target_id": "publication",
+                "target_type": "node_type",
+                "target_uuid": "7f7e464d-eba6-4107-b849-87d8e716ccde"
+            }
+        ],
+        "revision_timestamp": [
+            {
+                "value": "2025-02-28T13:20:40+00:00",
+                "format": "Y-m-d\\TH:i:sP"
+            }
+        ],
+        "revision_uid": [
+            {
+                "target_id": 186,
+                "target_type": "user",
+                "target_uuid": "2e1de4c8-d64c-4296-9caf-1608c516b281",
+                "url": "/user/186_en"
+            }
+        ],
+        "status": [
+            {
+                "value": true
+            }
+        ],
+        "uid": [
+            {
+                "target_id": 186,
+                "target_type": "user",
+                "target_uuid": "2e1de4c8-d64c-4296-9caf-1608c516b281",
+                "url": "/user/186_en"
+            }
+        ],
+        "title": [
+            {
+                "value": "Levelling the field: A review of the ICT revolution and agricultural extension in the Global South"
+            }
+        ],
+        "created": [
+            {
+                "value": "2025-02-28T13:19:15+00:00",
+                "format": "Y-m-d\\TH:i:sP"
+            }
+        ],
+        "changed": [
+            {
+                "value": "2025-02-28T13:20:40+00:00",
+                "format": "Y-m-d\\TH:i:sP"
+            }
+        ],
+        "promote": [
+            {
+                "value": false
+            }
+        ],
+        "sticky": [
+            {
+                "value": false
+            }
+        ],
+        "default_langcode": [
+            {
+                "value": true
+            }
+        ],
+        "revision_translation_affected": [],
+        "moderation_state": [
+            {
+                "value": "published"
+            }
+        ],
+        "ds_switch": [],
+        "gt_term_reference": [
+            {
+                "target_id": 3044,
+                "target_type": "taxonomy_term",
+                "target_uuid": "e8053b06-054a-47ad-9568-f92f7575a166",
+                "url": "/taxonomy/term/3044_en"
+            },
+            {
+                "target_id": 829,
+                "target_type": "taxonomy_term",
+                "target_uuid": "7a09b142-a1b8-4e83-9e12-591f38ebb0c3",
+                "url": "/taxonomy/term/829_en"
+            }
+        ],
+        "computed_field_ks_metadata": [
+            {
+                "value": null,
+                "format": null,
+                "processed": ""
+            }
+        ],
+        "computed_field_ks_no_metadata": [
+            {
+                "value": null,
+                "format": null,
+                "processed": ""
+            }
+        ],
+        "scheduled_delete": [],
+        "metatag": [
+            {
+                "tag": "meta",
+                "attributes": {
+                    "name": "title",
+                    "content": "Levelling the field: A review of the ICT revolution and agricultural extension in the Global South | Knowledge for policy"
+                }
+            },
+            {
+                "tag": "meta",
+                "attributes": {
+                    "name": "description",
+                    "content": "Information and c"
+                }
+            },
+            {
+                "tag": "link",
+                "attributes": {
+                    "rel": "canonical",
+                    "href": "https://knowledge4policy.ec.europa.eu/publication/levelling-field-review-ict-revolution-agricultural-extension-global-south_en"
+                }
+            },
+            {
+                "tag": "meta",
+                "attributes": {
+                    "name": "@type",
+                    "content": "WebPage",
+                    "group": "schema_web_page",
+                    "schema_metatag": true
+                }
+            },
+            {
+                "tag": "meta",
+                "attributes": {
+                    "name": "@id",
+                    "content": "https://knowledge4policy.ec.europa.eu/publication/levelling-field-review-ict-revolution-agricultural-extension-global-south_en",
+                    "group": "schema_web_page",
+                    "schema_metatag": true
+                }
+            },
+            {
+                "tag": "meta",
+                "attributes": {
+                    "name": "description",
+                    "content": "Levelling the field: A review of the ICT revolution and agricultural extension in the Global South",
+                    "group": "schema_web_page",
+                    "schema_metatag": true
+                }
+            },
+            {
+                "tag": "meta",
+                "attributes": {
+                    "name": "author",
+                    "content": {
+                        "@type": "Organization",
+                        "name": "Global Food and Nutrition Security",
+                        "url": "https://knowledge4policy.ec.europa.eu/global-food-nutrition-security_en"
+                    },
+                    "group": "schema_web_page",
+                    "schema_metatag": true
+                }
+            }
+        ],
+        "path": [
+            {
+                "alias": "/publication/levelling-field-review-ict-revolution-agricultural-extension-global-south",
+                "pid": 79517,
+                "langcode": "en"
+            }
+        ],
+        "publish_on": [],
+        "unpublish_on": [],
+        "publish_state": [],
+        "unpublish_state": [],
+        "content_translation_source": [
+            {
+                "value": "und"
+            }
+        ],
+        "content_translation_outdated": [
+            {
+                "value": false
+            }
+        ],
+        "body": [
+            {
+                "value": "<p>Information and communications technology has evolved significantly over the last seven decades, beginning with radio and video vans and culminating in the rise of smartphones and mobile internet in remote areas of the Global South. While ICT is an integral part of agricultural extension, little is known about how these changes have influenced agricultural extension practices. After a systematic review of 131 papers, we find that changes in ICT have shaped agricultural extension, enabling a shift from linear dissemination and “one-way communication” to co-innovation and farmer-to-farmer learning. The results indicate the potential for smartphones and mobile internet to democratize agricultural extension.</p>",
+                "format": "full_html",
+                "processed": "<p>Information and communications technology has evolved significantly over the last seven decades, beginning with radio and video vans and culminating in the rise of smartphones and mobile internet in remote areas of the Global South. While ICT is an integral part of agricultural extension, little is known about how these changes have influenced agricultural extension practices. After a systematic review of 131 papers, we find that changes in ICT have shaped agricultural extension, enabling a shift from linear dissemination and “one-way communication” to co-innovation and farmer-to-farmer learning. The results indicate the potential for smartphones and mobile internet to democratize agricultural extension.</p>",
+                "summary": null
+            }
+        ],
+        "feeds_item": [],
+        "field_comment": [
+            {
+                "status": 1,
+                "cid": 0,
+                "last_comment_timestamp": 1740748840,
+                "last_comment_name": null,
+                "last_comment_uid": 186,
+                "comment_count": 0
+            }
+        ],
+        "field_copyright": [],
+        "field_det": [
+            {
+                "target_id": "http://data.europa.eu/uxp/5188",
+                "target_type": "skos_concept",
+                "target_uuid": "http://data.europa.eu/uxp/5188",
+                "url": "/admin/structure/skos_concept/http_e_f_fdata_ceuropa_ceu_fuxp_f5188_en"
+            },
+            {
+                "target_id": "http://data.europa.eu/uxp/3636",
+                "target_type": "skos_concept",
+                "target_uuid": "http://data.europa.eu/uxp/3636",
+                "url": "/admin/structure/skos_concept/http_e_f_fdata_ceuropa_ceu_fuxp_f3636_en"
+            },
+            {
+                "target_id": "http://data.europa.eu/uxp/c_25fe24f4",
+                "target_type": "skos_concept",
+                "target_uuid": "http://data.europa.eu/uxp/c_25fe24f4",
+                "url": "/admin/structure/skos_concept/http_e_f_fdata_ceuropa_ceu_fuxp_fc_a25fe24f4_en"
+            },
+            {
+                "target_id": "http://data.europa.eu/uxp/2295",
+                "target_type": "skos_concept",
+                "target_uuid": "http://data.europa.eu/uxp/2295",
+                "url": "/admin/structure/skos_concept/http_e_f_fdata_ceuropa_ceu_fuxp_f2295_en"
+            },
+            {
+                "target_id": "http://data.europa.eu/uxp/6088",
+                "target_type": "skos_concept",
+                "target_uuid": "http://data.europa.eu/uxp/6088",
+                "url": "/admin/structure/skos_concept/http_e_f_fdata_ceuropa_ceu_fuxp_f6088_en"
+            }
+        ],
+        "field_exclude_entity_from_search": [
+            {
+                "value": false
+            }
+        ],
+        "field_expand_more_information": [
+            {
+                "value": true
+            }
+        ],
+        "field_geographic_coverage": [
+            {
+                "target_id": 1146,
+                "target_type": "taxonomy_term",
+                "target_uuid": "a877d229-7142-4154-b8a3-718ead8e8078",
+                "url": "/taxonomy/term/1146_en"
+            },
+            {
+                "target_id": 1200,
+                "target_type": "taxonomy_term",
+                "target_uuid": "a307622e-27a1-4fe8-8c8c-6e7d48bf4304",
+                "url": "/taxonomy/term/1200_en"
+            },
+            {
+                "target_id": 1349,
+                "target_type": "taxonomy_term",
+                "target_uuid": "a5368e11-8389-44dc-97de-aeccd7707a16",
+                "url": "/taxonomy/term/1349_en"
+            },
+            {
+                "target_id": 1388,
+                "target_type": "taxonomy_term",
+                "target_uuid": "66d71923-264a-42a1-972f-e74833672209",
+                "url": "/taxonomy/term/1388_en"
+            },
+            {
+                "target_id": 1325,
+                "target_type": "taxonomy_term",
+                "target_uuid": "c47c1cf3-3b81-458f-b7f5-7ac2c24d0c9e",
+                "url": "/taxonomy/term/1325_en"
+            }
+        ],
+        "field_intermediary_page": [
+            {
+                "value": false
+            }
+        ],
+        "field_internal_note": [],
+        "field_ks_related_topics": [
+            {
+                "target_id": 254,
+                "target_type": "node",
+                "target_uuid": "9bfd777c-9c5f-47a4-b3ef-6527c9223da3",
+                "url": "/global-food-nutrition-security/topic/research-innovation_en"
+            }
+        ],
+        "field_last_update": [
+            {
+                "value": "2025-02-28"
+            }
+        ],
+        "field_legacy_link": [],
+        "field_media_ref_image": [],
+        "field_newsroom_feed": [
+            {
+                "value": false
+            }
+        ],
+        "field_overwrite_published_date": [],
+        "field_parent_nav_page": [],
+        "field_preserve_last_update_date": [
+            {
+                "value": false
+            }
+        ],
+        "field_project_activity": [],
+        "field_pub_dc_contributor_authors": [
+            {
+                "value": "Rashid Parvez Khan, Saurabh Gupta, Thomas Daum, Regina Birner, Claudia Ringler"
+            }
+        ],
+        "field_pub_dc_date_accessioned": [
+            {
+                "value": "2025-02-28T14:19:07+01:00"
+            }
+        ],
+        "field_pub_dc_date_available": [
+            {
+                "value": "2025-02-28T14:19:07+01:00"
+            }
+        ],
+        "field_pub_dc_date_created": [
+            {
+                "value": "2025-02-28T14:19:07+01:00"
+            }
+        ],
+        "field_pub_dc_date_issued": [
+            {
+                "value": "2024-09-05"
+            }
+        ],
+        "field_pub_dc_date_submitted": [
+            {
+                "value": "2025-02-28T14:19:07+01:00"
+            }
+        ],
+        "field_pub_dc_descrip_abstract": [],
+        "field_pub_dc_descrip_sponsorship": [],
+        "field_pub_dc_format_medium": [],
+        "field_pub_dc_identifier_doi": [],
+        "field_pub_dc_identifier_eur": [],
+        "field_pub_dc_identifier_isbn": [],
+        "field_pub_dc_identifier_issn": [],
+        "field_pub_dc_identifier_opoce": [],
+        "field_pub_dc_identifier_uri": [],
+        "field_pub_dc_language": [],
+        "field_pub_dc_publisher": [
+            {
+                "value": "Wiley"
+            }
+        ],
+        "field_pub_dc_rel_ispartofseries": [],
+        "field_pub_dc_type": [],
+        "field_pub_files_ref": [],
+        "field_pub_links": [
+            {
+                "uri": "https://onlinelibrary.wiley.com/doi/10.1002/jid.3949",
+                "title": "Levelling the field: A review of the ICT revolution and agricultural extension in the Global South",
+                "options": []
+            }
+        ],
+        "field_pub_pubsy_identities": [],
+        "field_pub_type": [],
+        "field_related_major_event": [],
+        "field_related_organisations": [],
+        "field_related_working_group": [],
+        "field_search_highlight": [
+            {
+                "value": false
+            }
+        ],
+        "field_search_highlight_image": [],
+        "field_search_highlight_ks": [],
+        "field_show_content_author": [
+            {
+                "value": true
+            }
+        ],
+        "field_suggest_item_to_other_ks": []
+    },
+    {
+        "nid": [
+            {
+                "value": 77854
+            }
+        ],
+        "uuid": [
+            {
+                "value": "d8d2e6ec-ff30-4925-a885-8338f03b4d18"
+            }
+        ],
+        "vid": [
+            {
+                "value": 346084
+            }
+        ],
+        "langcode": [
+            {
+                "value": "en"
+            }
+        ],
+        "type": [
+            {
+                "target_id": "publication",
+                "target_type": "node_type",
+                "target_uuid": "7f7e464d-eba6-4107-b849-87d8e716ccde"
+            }
+        ],
+        "revision_timestamp": [
+            {
+                "value": "2025-02-27T10:24:06+00:00",
+                "format": "Y-m-d\\TH:i:sP"
+            }
+        ],
+        "revision_uid": [
+            {
+                "target_id": 186,
+                "target_type": "user",
+                "target_uuid": "2e1de4c8-d64c-4296-9caf-1608c516b281",
+                "url": "/user/186_en"
+            }
+        ],
+        "status": [
+            {
+                "value": true
+            }
+        ],
+        "uid": [
+            {
+                "target_id": 186,
+                "target_type": "user",
+                "target_uuid": "2e1de4c8-d64c-4296-9caf-1608c516b281",
+                "url": "/user/186_en"
+            }
+        ],
+        "title": [
+            {
+                "value": "Improving meat consumption to enhance food security in West Africa"
+            }
+        ],
+        "created": [
+            {
+                "value": "2025-02-26T17:06:28+00:00",
+                "format": "Y-m-d\\TH:i:sP"
+            }
+        ],
+        "changed": [
+            {
+                "value": "2025-02-27T10:24:06+00:00",
+                "format": "Y-m-d\\TH:i:sP"
+            }
+        ],
+        "promote": [
+            {
+                "value": false
+            }
+        ],
+        "sticky": [
+            {
+                "value": false
+            }
+        ],
+        "default_langcode": [
+            {
+                "value": true
+            }
+        ],
+        "revision_translation_affected": [
+            {
+                "value": true
+            }
+        ],
+        "moderation_state": [
+            {
+                "value": "published"
+            }
+        ],
+        "ds_switch": [],
+        "gt_term_reference": [
+            {
+                "target_id": 800,
+                "target_type": "taxonomy_term",
+                "target_uuid": "55f5b930-4659-4017-bcb3-89a401d65542",
+                "url": "/taxonomy/term/800_en"
+            },
+            {
+                "target_id": 914,
+                "target_type": "taxonomy_term",
+                "target_uuid": "24efb6cb-4b1d-4921-ab6a-4414cdbb5cfa",
+                "url": "/taxonomy/term/914_en"
+            }
+        ],
+        "computed_field_ks_metadata": [
+            {
+                "value": null,
+                "format": null,
+                "processed": ""
+            }
+        ],
+        "computed_field_ks_no_metadata": [
+            {
+                "value": null,
+                "format": null,
+                "processed": ""
+            }
+        ],
+        "scheduled_delete": [],
+        "metatag": [
+            {
+                "tag": "meta",
+                "attributes": {
+                    "name": "title",
+                    "content": "Improving meat consumption to enhance food security in West Africa | Knowledge for policy"
+                }
+            },
+            {
+                "tag": "meta",
+                "attributes": {
+                    "name": "description",
+                    "content": "Meat demand in We"
+                }
+            },
+            {
+                "tag": "link",
+                "attributes": {
+                    "rel": "canonical",
+                    "href": "https://knowledge4policy.ec.europa.eu/publication/improving-meat-consumption-enhance-food-security-west-africa_en"
+                }
+            },
+            {
+                "tag": "meta",
+                "attributes": {
+                    "name": "@type",
+                    "content": "WebPage",
+                    "group": "schema_web_page",
+                    "schema_metatag": true
+                }
+            },
+            {
+                "tag": "meta",
+                "attributes": {
+                    "name": "@id",
+                    "content": "https://knowledge4policy.ec.europa.eu/publication/improving-meat-consumption-enhance-food-security-west-africa_en",
+                    "group": "schema_web_page",
+                    "schema_metatag": true
+                }
+            },
+            {
+                "tag": "meta",
+                "attributes": {
+                    "name": "description",
+                    "content": "Improving meat consumption to enhance food security in West Africa",
+                    "group": "schema_web_page",
+                    "schema_metatag": true
+                }
+            },
+            {
+                "tag": "meta",
+                "attributes": {
+                    "name": "author",
+                    "content": {
+                        "@type": "Organization",
+                        "name": "Global Food and Nutrition Security",
+                        "url": "https://knowledge4policy.ec.europa.eu/global-food-nutrition-security_en"
+                    },
+                    "group": "schema_web_page",
+                    "schema_metatag": true
+                }
+            }
+        ],
+        "path": [
+            {
+                "alias": "/publication/improving-meat-consumption-enhance-food-security-west-africa",
+                "pid": 79485,
+                "langcode": "en"
+            }
+        ],
+        "publish_on": [],
+        "unpublish_on": [],
+        "publish_state": [],
+        "unpublish_state": [],
+        "content_translation_source": [
+            {
+                "value": "und"
+            }
+        ],
+        "content_translation_outdated": [
+            {
+                "value": false
+            }
+        ],
+        "body": [
+            {
+                "value": "<p>Meat demand in West Africa is growing rapidly, driven by socioeconomic and demographic factors. This study examined meat consumption patterns and preferences of urban households in Senegal, Côte d'Ivoire, and Nigeria, highlighting challenges and opportunities for the livestock sector and food security. Results reveal income-based consumption disparities, a preference for local products, and price and quality sensitivity.</p>",
+                "format": "full_html",
+                "processed": "<p>Meat demand in West Africa is growing rapidly, driven by socioeconomic and demographic factors. This study examined meat consumption patterns and preferences of urban households in Senegal, Côte d'Ivoire, and Nigeria, highlighting challenges and opportunities for the livestock sector and food security. Results reveal income-based consumption disparities, a preference for local products, and price and quality sensitivity.</p>",
+                "summary": null
+            }
+        ],
+        "feeds_item": [],
+        "field_comment": [
+            {
+                "status": 1,
+                "cid": 0,
+                "last_comment_timestamp": 1740589704,
+                "last_comment_name": null,
+                "last_comment_uid": 186,
+                "comment_count": 0
+            }
+        ],
+        "field_copyright": [],
+        "field_det": [
+            {
+                "target_id": "2865"
+            },
+            {
+                "target_id": "http://data.europa.eu/uxp/c_46f6aaeb",
+                "target_type": "skos_concept",
+                "target_uuid": "http://data.europa.eu/uxp/c_46f6aaeb",
+                "url": "/admin/structure/skos_concept/http_e_f_fdata_ceuropa_ceu_fuxp_fc_a46f6aaeb_en"
+            },
+            {
+                "target_id": "http://data.europa.eu/uxp/3659",
+                "target_type": "skos_concept",
+                "target_uuid": "http://data.europa.eu/uxp/3659",
+                "url": "/admin/structure/skos_concept/http_e_f_fdata_ceuropa_ceu_fuxp_f3659_en"
+            },
+            {
+                "target_id": "http://data.europa.eu/uxp/4681",
+                "target_type": "skos_concept",
+                "target_uuid": "http://data.europa.eu/uxp/4681",
+                "url": "/admin/structure/skos_concept/http_e_f_fdata_ceuropa_ceu_fuxp_f4681_en"
+            },
+            {
+                "target_id": "http://data.europa.eu/uxp/4213",
+                "target_type": "skos_concept",
+                "target_uuid": "http://data.europa.eu/uxp/4213",
+                "url": "/admin/structure/skos_concept/http_e_f_fdata_ceuropa_ceu_fuxp_f4213_en"
+            },
+            {
+                "target_id": "http://data.europa.eu/uxp/1223",
+                "target_type": "skos_concept",
+                "target_uuid": "http://data.europa.eu/uxp/1223",
+                "url": "/admin/structure/skos_concept/http_e_f_fdata_ceuropa_ceu_fuxp_f1223_en"
+            },
+            {
+                "target_id": "http://data.europa.eu/uxp/711",
+                "target_type": "skos_concept",
+                "target_uuid": "http://data.europa.eu/uxp/711",
+                "url": "/admin/structure/skos_concept/http_e_f_fdata_ceuropa_ceu_fuxp_f711_en"
+            },
+            {
+                "target_id": "http://data.europa.eu/uxp/6569",
+                "target_type": "skos_concept",
+                "target_uuid": "http://data.europa.eu/uxp/6569",
+                "url": "/admin/structure/skos_concept/http_e_f_fdata_ceuropa_ceu_fuxp_f6569_en"
+            }
+        ],
+        "field_exclude_entity_from_search": [
+            {
+                "value": false
+            }
+        ],
+        "field_expand_more_information": [
+            {
+                "value": true
+            }
+        ],
+        "field_geographic_coverage": [
+            {
+                "target_id": 1383,
+                "target_type": "taxonomy_term",
+                "target_uuid": "47350b5f-1b8f-4998-9415-aad614d0c016",
+                "url": "/taxonomy/term/1383_en"
+            },
+            {
+                "target_id": 1183,
+                "target_type": "taxonomy_term",
+                "target_uuid": "e796a5f3-78a6-4ab2-8776-644e5b51291b",
+                "url": "/taxonomy/term/1183_en"
+            },
+            {
+                "target_id": 1186,
+                "target_type": "taxonomy_term",
+                "target_uuid": "28cbd706-e286-424e-836a-66aa96953956",
+                "url": "/taxonomy/term/1186_en"
+            }
+        ],
+        "field_intermediary_page": [
+            {
+                "value": false
+            }
+        ],
+        "field_internal_note": [],
+        "field_ks_related_topics": [
+            {
+                "target_id": 223,
+                "target_type": "node",
+                "target_uuid": "d60d0bcd-9af0-4212-994e-44ba3f4a4b02",
+                "url": "/global-food-nutrition-security/topic/food-security-food-crises_en"
+            }
+        ],
+        "field_last_update": [
+            {
+                "value": "2025-02-27"
+            }
+        ],
+        "field_legacy_link": [],
+        "field_media_ref_image": [],
+        "field_newsroom_feed": [
+            {
+                "value": false
+            }
+        ],
+        "field_overwrite_published_date": [],
+        "field_parent_nav_page": [],
+        "field_preserve_last_update_date": [
+            {
+                "value": false
+            }
+        ],
+        "field_project_activity": [],
+        "field_pub_dc_contributor_authors": [
+            {
+                "value": "Wane Abdrahmane, Ferrari Serena"
+            }
+        ],
+        "field_pub_dc_date_accessioned": [
+            {
+                "value": "2025-02-26T18:06:21+01:00"
+            }
+        ],
+        "field_pub_dc_date_available": [
+            {
+                "value": "2025-02-26T18:06:21+01:00"
+            }
+        ],
+        "field_pub_dc_date_created": [
+            {
+                "value": "2025-02-26T18:06:21+01:00"
+            }
+        ],
+        "field_pub_dc_date_issued": [
+            {
+                "value": "2024-01-01"
+            }
+        ],
+        "field_pub_dc_date_submitted": [
+            {
+                "value": "2025-02-26T18:06:21+01:00"
+            }
+        ],
+        "field_pub_dc_descrip_abstract": [],
+        "field_pub_dc_descrip_sponsorship": [],
+        "field_pub_dc_format_medium": [],
+        "field_pub_dc_identifier_doi": [],
+        "field_pub_dc_identifier_eur": [],
+        "field_pub_dc_identifier_isbn": [],
+        "field_pub_dc_identifier_issn": [],
+        "field_pub_dc_identifier_opoce": [],
+        "field_pub_dc_identifier_uri": [],
+        "field_pub_dc_language": [],
+        "field_pub_dc_publisher": [],
+        "field_pub_dc_rel_ispartofseries": [],
+        "field_pub_dc_type": [],
+        "field_pub_files_ref": [],
+        "field_pub_links": [
+            {
+                "uri": "https://agritrop.cirad.fr/611402/",
+                "title": "Improving meat consumption to enhance food security in West Africa",
+                "options": []
+            }
+        ],
+        "field_pub_pubsy_identities": [],
+        "field_pub_type": [],
+        "field_related_major_event": [],
+        "field_related_organisations": [
+            {
+                "target_id": 5241,
+                "target_type": "node",
+                "target_uuid": "ae75b39b-b0d2-4cc8-ba52-e87e5f2cc162",
+                "url": "/organisation/cirad-centre-de-cooperation-international-en-recherch%C3%A9-agronomique-pour-le-development_en"
+            }
+        ],
+        "field_related_working_group": [],
+        "field_search_highlight": [
+            {
+                "value": false
+            }
+        ],
+        "field_search_highlight_image": [],
+        "field_search_highlight_ks": [],
+        "field_show_content_author": [
+            {
+                "value": true
+            }
+        ],
+        "field_suggest_item_to_other_ks": []
+    },
+    {
+        "nid": [
+            {
+                "value": 77867
+            }
+        ],
+        "uuid": [
+            {
+                "value": "c7c2acfa-1b96-4ac4-a314-8cc9c28b842f"
+            }
+        ],
+        "vid": [
+            {
+                "value": 346086
+            }
+        ],
+        "langcode": [
+            {
+                "value": "en"
+            }
+        ],
+        "type": [
+            {
+                "target_id": "publication",
+                "target_type": "node_type",
+                "target_uuid": "7f7e464d-eba6-4107-b849-87d8e716ccde"
+            }
+        ],
+        "revision_timestamp": [
+            {
+                "value": "2025-02-27T10:58:25+00:00",
+                "format": "Y-m-d\\TH:i:sP"
+            }
+        ],
+        "revision_uid": [
+            {
+                "target_id": 4390,
+                "target_type": "user",
+                "target_uuid": "fcc643be-439e-4d76-a912-4412a3c3f13f",
+                "url": "/user/4390_en"
+            }
+        ],
+        "status": [
+            {
+                "value": true
+            }
+        ],
+        "uid": [
+            {
+                "target_id": 4390,
+                "target_type": "user",
+                "target_uuid": "fcc643be-439e-4d76-a912-4412a3c3f13f",
+                "url": "/user/4390_en"
+            }
+        ],
+        "title": [
+            {
+                "value": "The Circularity Gap Report (CGR)"
+            }
+        ],
+        "created": [
+            {
+                "value": "2025-02-27T10:53:09+00:00",
+                "format": "Y-m-d\\TH:i:sP"
+            }
+        ],
+        "changed": [
+            {
+                "value": "2025-02-27T10:58:25+00:00",
+                "format": "Y-m-d\\TH:i:sP"
+            }
+        ],
+        "promote": [
+            {
+                "value": false
+            }
+        ],
+        "sticky": [
+            {
+                "value": false
+            }
+        ],
+        "default_langcode": [
+            {
+                "value": true
+            }
+        ],
+        "revision_translation_affected": [],
+        "moderation_state": [
+            {
+                "value": "published"
+            }
+        ],
+        "ds_switch": [],
+        "gt_term_reference": [],
+        "computed_field_ks_metadata": [
+            {
+                "value": null,
+                "format": null,
+                "processed": ""
+            }
+        ],
+        "computed_field_ks_no_metadata": [
+            {
+                "value": null,
+                "format": null,
+                "processed": ""
+            }
+        ],
+        "scheduled_delete": [],
+        "metatag": [
+            {
+                "tag": "meta",
+                "attributes": {
+                    "name": "title",
+                    "content": "The Circularity Gap Report (CGR) | Knowledge for policy"
+                }
+            },
+            {
+                "tag": "meta",
+                "attributes": {
+                    "name": "description",
+                    "content": "The main goal of the Global Circularity Gap Report is to provide key players that can implement the circular economy with the insights, data, knowledge and network to accelerate change."
+                }
+            },
+            {
+                "tag": "link",
+                "attributes": {
+                    "rel": "canonical",
+                    "href": "https://knowledge4policy.ec.europa.eu/publication/circularity-gap-report-cgr_en"
+                }
+            },
+            {
+                "tag": "meta",
+                "attributes": {
+                    "name": "@type",
+                    "content": "WebPage",
+                    "group": "schema_web_page",
+                    "schema_metatag": true
+                }
+            },
+            {
+                "tag": "meta",
+                "attributes": {
+                    "name": "@id",
+                    "content": "https://knowledge4policy.ec.europa.eu/publication/circularity-gap-report-cgr_en",
+                    "group": "schema_web_page",
+                    "schema_metatag": true
+                }
+            },
+            {
+                "tag": "meta",
+                "attributes": {
+                    "name": "description",
+                    "content": "The Circularity Gap Report (CGR)",
+                    "group": "schema_web_page",
+                    "schema_metatag": true
+                }
+            },
+            {
+                "tag": "meta",
+                "attributes": {
+                    "name": "author",
+                    "content": {
+                        "@type": "Organization",
+                        "name": "Bioeconomy",
+                        "url": "https://knowledge4policy.ec.europa.eu/bioeconomy_en"
+                    },
+                    "group": "schema_web_page",
+                    "schema_metatag": true
+                }
+            }
+        ],
+        "path": [
+            {
+                "alias": "/publication/circularity-gap-report-cgr",
+                "pid": 79501,
+                "langcode": "en"
+            }
+        ],
+        "publish_on": [],
+        "unpublish_on": [],
+        "publish_state": [],
+        "unpublish_state": [],
+        "content_translation_source": [
+            {
+                "value": "und"
+            }
+        ],
+        "content_translation_outdated": [
+            {
+                "value": false
+            }
+        ],
+        "body": [
+            {
+                "value": "<p>The Report, which will be launched annually, will continue to provide insights into the circular state of the world and additionally focus on specific aspects of circularity.</p>",
+                "format": "full_html",
+                "processed": "<p>The Report, which will be launched annually, will continue to provide insights into the circular state of the world and additionally focus on specific aspects of circularity.</p>",
+                "summary": "The main goal of the Global Circularity Gap Report is to provide key players that can implement the circular economy with the insights, data, knowledge and network to accelerate change."
+            }
+        ],
+        "feeds_item": [],
+        "field_comment": [
+            {
+                "status": 1,
+                "cid": 0,
+                "last_comment_timestamp": 1740653905,
+                "last_comment_name": null,
+                "last_comment_uid": 4390,
+                "comment_count": 0
+            }
+        ],
+        "field_copyright": [],
+        "field_det": [
+            {
+                "target_id": "http://data.europa.eu/uxp/c_1138d9d2",
+                "target_type": "skos_concept",
+                "target_uuid": "http://data.europa.eu/uxp/c_1138d9d2",
+                "url": "/admin/structure/skos_concept/http_e_f_fdata_ceuropa_ceu_fuxp_fc_a1138d9d2_en"
+            },
+            {
+                "target_id": "2803"
+            },
+            {
+                "target_id": "http://data.europa.eu/uxp/2914",
+                "target_type": "skos_concept",
+                "target_uuid": "http://data.europa.eu/uxp/2914",
+                "url": "/admin/structure/skos_concept/http_e_f_fdata_ceuropa_ceu_fuxp_f2914_en"
+            },
+            {
+                "target_id": "http://data.europa.eu/uxp/4256",
+                "target_type": "skos_concept",
+                "target_uuid": "http://data.europa.eu/uxp/4256",
+                "url": "/admin/structure/skos_concept/http_e_f_fdata_ceuropa_ceu_fuxp_f4256_en"
+            },
+            {
+                "target_id": "2858"
+            }
+        ],
+        "field_exclude_entity_from_search": [
+            {
+                "value": false
+            }
+        ],
+        "field_expand_more_information": [
+            {
+                "value": false
+            }
+        ],
+        "field_geographic_coverage": [
+            {
+                "target_id": 1349,
+                "target_type": "taxonomy_term",
+                "target_uuid": "a5368e11-8389-44dc-97de-aeccd7707a16",
+                "url": "/taxonomy/term/1349_en"
+            },
+            {
+                "target_id": 1341,
+                "target_type": "taxonomy_term",
+                "target_uuid": "1837f98a-d7c5-4278-8e43-e59b0b6a80e4",
+                "url": "/taxonomy/term/1341_en"
+            }
+        ],
+        "field_intermediary_page": [
+            {
+                "value": false
+            }
+        ],
+        "field_internal_note": [],
+        "field_ks_related_topics": [],
+        "field_last_update": [
+            {
+                "value": "2025-02-27"
+            }
+        ],
+        "field_legacy_link": [
+            {
+                "uri": "https://www.circularity-gap.world/global",
+                "title": "",
+                "options": []
+            }
+        ],
+        "field_media_ref_image": [],
+        "field_newsroom_feed": [
+            {
+                "value": false
+            }
+        ],
+        "field_overwrite_published_date": [],
+        "field_parent_nav_page": [],
+        "field_preserve_last_update_date": [
+            {
+                "value": false
+            }
+        ],
+        "field_project_activity": [],
+        "field_pub_dc_contributor_authors": [],
+        "field_pub_dc_date_accessioned": [
+            {
+                "value": "2025-02-27T11:52:50+01:00"
+            }
+        ],
+        "field_pub_dc_date_available": [
+            {
+                "value": "2025-02-27T11:52:50+01:00"
+            }
+        ],
+        "field_pub_dc_date_created": [
+            {
+                "value": "2025-02-27T11:52:50+01:00"
+            }
+        ],
+        "field_pub_dc_date_issued": [
+            {
+                "value": "2025-02-27"
+            }
+        ],
+        "field_pub_dc_date_submitted": [
+            {
+                "value": "2025-02-27T11:52:50+01:00"
+            }
+        ],
+        "field_pub_dc_descrip_abstract": [],
+        "field_pub_dc_descrip_sponsorship": [],
+        "field_pub_dc_format_medium": [],
+        "field_pub_dc_identifier_doi": [],
+        "field_pub_dc_identifier_eur": [],
+        "field_pub_dc_identifier_isbn": [],
+        "field_pub_dc_identifier_issn": [],
+        "field_pub_dc_identifier_opoce": [],
+        "field_pub_dc_identifier_uri": [],
+        "field_pub_dc_language": [],
+        "field_pub_dc_publisher": [],
+        "field_pub_dc_rel_ispartofseries": [],
+        "field_pub_dc_type": [],
+        "field_pub_files_ref": [],
+        "field_pub_links": [],
+        "field_pub_pubsy_identities": [],
+        "field_pub_type": [],
+        "field_related_major_event": [],
+        "field_related_organisations": [
+            {
+                "target_id": 5248,
+                "target_type": "node",
+                "target_uuid": "05e9412e-4d95-4e4e-8c86-616cd3c47643",
+                "url": "/organisation/circle-economy_en"
+            }
+        ],
+        "field_related_working_group": [],
+        "field_search_highlight": [
+            {
+                "value": false
+            }
+        ],
+        "field_search_highlight_image": [],
+        "field_search_highlight_ks": [],
+        "field_show_content_author": [
+            {
+                "value": false
+            }
+        ],
+        "field_suggest_item_to_other_ks": []
+    },
+    {
+        "nid": [
+            {
+                "value": 77778
+            }
+        ],
+        "uuid": [
+            {
+                "value": "b1987162-ba62-4acc-8b70-541cf1cbf6b2"
+            }
+        ],
+        "vid": [
+            {
+                "value": 345754
+            }
+        ],
+        "langcode": [
+            {
+                "value": "en"
+            }
+        ],
+        "type": [
+            {
+                "target_id": "publication",
+                "target_type": "node_type",
+                "target_uuid": "7f7e464d-eba6-4107-b849-87d8e716ccde"
+            }
+        ],
+        "revision_timestamp": [
+            {
+                "value": "2025-02-23T18:22:59+00:00",
+                "format": "Y-m-d\\TH:i:sP"
+            }
+        ],
+        "revision_uid": [
+            {
+                "target_id": 186,
+                "target_type": "user",
+                "target_uuid": "2e1de4c8-d64c-4296-9caf-1608c516b281",
+                "url": "/user/186_en"
+            }
+        ],
+        "status": [
+            {
+                "value": true
+            }
+        ],
+        "uid": [
+            {
+                "target_id": 186,
+                "target_type": "user",
+                "target_uuid": "2e1de4c8-d64c-4296-9caf-1608c516b281",
+                "url": "/user/186_en"
+            }
+        ],
+        "title": [
+            {
+                "value": "Avis PREGEC, Décembre 2024"
+            }
+        ],
+        "created": [
+            {
+                "value": "2025-02-23T18:02:28+00:00",
+                "format": "Y-m-d\\TH:i:sP"
+            }
+        ],
+        "changed": [
+            {
+                "value": "2025-02-23T18:22:59+00:00",
+                "format": "Y-m-d\\TH:i:sP"
+            }
+        ],
+        "promote": [
+            {
+                "value": false
+            }
+        ],
+        "sticky": [
+            {
+                "value": false
+            }
+        ],
+        "default_langcode": [
+            {
+                "value": true
+            }
+        ],
+        "revision_translation_affected": [],
+        "moderation_state": [
+            {
+                "value": "published"
+            }
+        ],
+        "ds_switch": [],
+        "gt_term_reference": [
+            {
+                "target_id": 876,
+                "target_type": "taxonomy_term",
+                "target_uuid": "4d13a9c3-0897-4300-8421-8f34ad6f6194",
+                "url": "/taxonomy/term/876_en"
+            },
+            {
+                "target_id": 824,
+                "target_type": "taxonomy_term",
+                "target_uuid": "02ef4a20-efec-4024-ae5d-c8183b628eb1",
+                "url": "/taxonomy/term/824_en"
+            },
+            {
+                "target_id": 927,
+                "target_type": "taxonomy_term",
+                "target_uuid": "9e105723-fa3e-4e8a-82a8-bcaf9c9b0c26",
+                "url": "/taxonomy/term/927_en"
+            }
+        ],
+        "computed_field_ks_metadata": [
+            {
+                "value": null,
+                "format": null,
+                "processed": ""
+            }
+        ],
+        "computed_field_ks_no_metadata": [
+            {
+                "value": null,
+                "format": null,
+                "processed": ""
+            }
+        ],
+        "scheduled_delete": [],
+        "metatag": [
+            {
+                "tag": "meta",
+                "attributes": {
+                    "name": "title",
+                    "content": "Avis PREGEC, Décembre 2024 | Knowledge for policy"
+                }
+            },
+            {
+                "tag": "meta",
+                "attributes": {
+                    "name": "description",
+                    "content": "La campagne agrop"
+                }
+            },
+            {
+                "tag": "link",
+                "attributes": {
+                    "rel": "canonical",
+                    "href": "https://knowledge4policy.ec.europa.eu/publication/avis-pregec-d%C3%A9cembre-2024_en"
+                }
+            },
+            {
+                "tag": "meta",
+                "attributes": {
+                    "name": "@type",
+                    "content": "WebPage",
+                    "group": "schema_web_page",
+                    "schema_metatag": true
+                }
+            },
+            {
+                "tag": "meta",
+                "attributes": {
+                    "name": "@id",
+                    "content": "https://knowledge4policy.ec.europa.eu/publication/avis-pregec-d%C3%A9cembre-2024_en",
+                    "group": "schema_web_page",
+                    "schema_metatag": true
+                }
+            },
+            {
+                "tag": "meta",
+                "attributes": {
+                    "name": "description",
+                    "content": "Avis PREGEC, Décembre 2024",
+                    "group": "schema_web_page",
+                    "schema_metatag": true
+                }
+            },
+            {
+                "tag": "meta",
+                "attributes": {
+                    "name": "author",
+                    "content": {
+                        "@type": "Organization",
+                        "name": "Global Food and Nutrition Security",
+                        "url": "https://knowledge4policy.ec.europa.eu/global-food-nutrition-security_en"
+                    },
+                    "group": "schema_web_page",
+                    "schema_metatag": true
+                }
+            }
+        ],
+        "path": [
+            {
+                "alias": "/publication/avis-pregec-décembre-2024",
+                "pid": 79405,
+                "langcode": "en"
+            }
+        ],
+        "publish_on": [],
+        "unpublish_on": [],
+        "publish_state": [],
+        "unpublish_state": [],
+        "content_translation_source": [
+            {
+                "value": "und"
+            }
+        ],
+        "content_translation_outdated": [
+            {
+                "value": false
+            }
+        ],
+        "body": [
+            {
+                "value": "<p>La campagne agropastorale 2024/2025 a connu un déroulement caractérisé par la pluviométrie à tendance excédentaire dans les pays Sahéliens et normale à déficitaire dans les pays du Golfe de Guinée. Les pluies exceptionnelles ont été enregistrées dans les zones grégarigènes du criquet Pèlerin des pays de la ligne de front. Toutefois, la campagne a été également marquée par de longues pauses pluviométriques dans les pays du Golfe de Guinée, le Nord du Sénégal et l’extrême Sud-ouest de la Mauritanie. La reprise et l’intensification des pluies à partir des mois de juillet, a permis une évolution des cycles des cultures dans des conditions hydriques satisfaisantes.</p>",
+                "format": "full_html",
+                "processed": "<p>La campagne agropastorale 2024/2025 a connu un déroulement caractérisé par la pluviométrie à tendance excédentaire dans les pays Sahéliens et normale à déficitaire dans les pays du Golfe de Guinée. Les pluies exceptionnelles ont été enregistrées dans les zones grégarigènes du criquet Pèlerin des pays de la ligne de front. Toutefois, la campagne a été également marquée par de longues pauses pluviométriques dans les pays du Golfe de Guinée, le Nord du Sénégal et l’extrême Sud-ouest de la Mauritanie. La reprise et l’intensification des pluies à partir des mois de juillet, a permis une évolution des cycles des cultures dans des conditions hydriques satisfaisantes.</p>",
+                "summary": null
+            }
+        ],
+        "feeds_item": [],
+        "field_comment": [
+            {
+                "status": 1,
+                "cid": 0,
+                "last_comment_timestamp": 1740334979,
+                "last_comment_name": null,
+                "last_comment_uid": 186,
+                "comment_count": 0
+            }
+        ],
+        "field_copyright": [],
+        "field_det": [
+            {
+                "target_id": "http://data.europa.eu/uxp/613",
+                "target_type": "skos_concept",
+                "target_uuid": "http://data.europa.eu/uxp/613",
+                "url": "/admin/structure/skos_concept/http_e_f_fdata_ceuropa_ceu_fuxp_f613_en"
+            },
+            {
+                "target_id": "2915"
+            },
+            {
+                "target_id": "http://data.europa.eu/uxp/det_110",
+                "target_type": "skos_concept",
+                "target_uuid": "http://data.europa.eu/uxp/det_110",
+                "url": "/admin/structure/skos_concept/http_e_f_fdata_ceuropa_ceu_fuxp_fdet_a110_en"
+            },
+            {
+                "target_id": "http://data.europa.eu/uxp/1788",
+                "target_type": "skos_concept",
+                "target_uuid": "http://data.europa.eu/uxp/1788",
+                "url": "/admin/structure/skos_concept/http_e_f_fdata_ceuropa_ceu_fuxp_f1788_en"
+            },
+            {
+                "target_id": "http://data.europa.eu/uxp/807",
+                "target_type": "skos_concept",
+                "target_uuid": "http://data.europa.eu/uxp/807",
+                "url": "/admin/structure/skos_concept/http_e_f_fdata_ceuropa_ceu_fuxp_f807_en"
+            },
+            {
+                "target_id": "http://data.europa.eu/uxp/1770",
+                "target_type": "skos_concept",
+                "target_uuid": "http://data.europa.eu/uxp/1770",
+                "url": "/admin/structure/skos_concept/http_e_f_fdata_ceuropa_ceu_fuxp_f1770_en"
+            },
+            {
+                "target_id": "http://data.europa.eu/uxp/3074",
+                "target_type": "skos_concept",
+                "target_uuid": "http://data.europa.eu/uxp/3074",
+                "url": "/admin/structure/skos_concept/http_e_f_fdata_ceuropa_ceu_fuxp_f3074_en"
+            },
+            {
+                "target_id": "http://data.europa.eu/uxp/2723",
+                "target_type": "skos_concept",
+                "target_uuid": "http://data.europa.eu/uxp/2723",
+                "url": "/admin/structure/skos_concept/http_e_f_fdata_ceuropa_ceu_fuxp_f2723_en"
+            }
+        ],
+        "field_exclude_entity_from_search": [
+            {
+                "value": false
+            }
+        ],
+        "field_expand_more_information": [
+            {
+                "value": true
+            }
+        ],
+        "field_geographic_coverage": [
+            {
+                "target_id": 1376,
+                "target_type": "taxonomy_term",
+                "target_uuid": "24ea3e92-a9dc-4964-8de5-d10538c013fd",
+                "url": "/taxonomy/term/1376_en"
+            },
+            {
+                "target_id": 1150,
+                "target_type": "taxonomy_term",
+                "target_uuid": "595fd2b5-0816-4d6e-bfb2-76a44d4ea846",
+                "url": "/taxonomy/term/1150_en"
+            },
+            {
+                "target_id": 1152,
+                "target_type": "taxonomy_term",
+                "target_uuid": "fd2d85d0-e610-4ac9-a1b5-dcb8cde1b107",
+                "url": "/taxonomy/term/1152_en"
+            },
+            {
+                "target_id": 1155,
+                "target_type": "taxonomy_term",
+                "target_uuid": "3a8ef323-8556-47f5-9996-dfcd661889b9",
+                "url": "/taxonomy/term/1155_en"
+            },
+            {
+                "target_id": 1157,
+                "target_type": "taxonomy_term",
+                "target_uuid": "8118c6ff-5670-4f5a-aa42-19bdd173c1fa",
+                "url": "/taxonomy/term/1157_en"
+            },
+            {
+                "target_id": 1167,
+                "target_type": "taxonomy_term",
+                "target_uuid": "768b7b98-16a4-4f29-9c2f-e3d918645b74",
+                "url": "/taxonomy/term/1167_en"
+            },
+            {
+                "target_id": 1168,
+                "target_type": "taxonomy_term",
+                "target_uuid": "b9abd9bc-ff2d-4630-abe8-100484df3ea0",
+                "url": "/taxonomy/term/1168_en"
+            },
+            {
+                "target_id": 1383,
+                "target_type": "taxonomy_term",
+                "target_uuid": "47350b5f-1b8f-4998-9415-aad614d0c016",
+                "url": "/taxonomy/term/1383_en"
+            },
+            {
+                "target_id": 1172,
+                "target_type": "taxonomy_term",
+                "target_uuid": "646b8336-3bf1-4ec3-b76a-65641a0da442",
+                "url": "/taxonomy/term/1172_en"
+            },
+            {
+                "target_id": 1176,
+                "target_type": "taxonomy_term",
+                "target_uuid": "a57c93aa-e48a-46dc-abd8-7585d5d51b83",
+                "url": "/taxonomy/term/1176_en"
+            },
+            {
+                "target_id": 1177,
+                "target_type": "taxonomy_term",
+                "target_uuid": "869b7467-aee7-41aa-8913-b25b757e3119",
+                "url": "/taxonomy/term/1177_en"
+            },
+            {
+                "target_id": 1182,
+                "target_type": "taxonomy_term",
+                "target_uuid": "9aa0a4ad-302d-4e13-bc94-98e766c82049",
+                "url": "/taxonomy/term/1182_en"
+            },
+            {
+                "target_id": 1183,
+                "target_type": "taxonomy_term",
+                "target_uuid": "e796a5f3-78a6-4ab2-8776-644e5b51291b",
+                "url": "/taxonomy/term/1183_en"
+            },
+            {
+                "target_id": 1186,
+                "target_type": "taxonomy_term",
+                "target_uuid": "28cbd706-e286-424e-836a-66aa96953956",
+                "url": "/taxonomy/term/1186_en"
+            },
+            {
+                "target_id": 1195,
+                "target_type": "taxonomy_term",
+                "target_uuid": "52eb3c32-0279-4ad0-b3c5-b49a3a8e9e89",
+                "url": "/taxonomy/term/1195_en"
+            }
+        ],
+        "field_intermediary_page": [
+            {
+                "value": false
+            }
+        ],
+        "field_internal_note": [],
+        "field_ks_related_topics": [
+            {
+                "target_id": 223,
+                "target_type": "node",
+                "target_uuid": "d60d0bcd-9af0-4212-994e-44ba3f4a4b02",
+                "url": "/global-food-nutrition-security/topic/food-security-food-crises_en"
+            }
+        ],
+        "field_last_update": [
+            {
+                "value": "2025-02-23"
+            }
+        ],
+        "field_legacy_link": [],
+        "field_media_ref_image": [],
+        "field_newsroom_feed": [
+            {
+                "value": false
+            }
+        ],
+        "field_overwrite_published_date": [],
+        "field_parent_nav_page": [],
+        "field_preserve_last_update_date": [
+            {
+                "value": false
+            }
+        ],
+        "field_project_activity": [],
+        "field_pub_dc_contributor_authors": [],
+        "field_pub_dc_date_accessioned": [
+            {
+                "value": "2025-02-23T19:02:15+01:00"
+            }
+        ],
+        "field_pub_dc_date_available": [
+            {
+                "value": "2025-02-23T19:02:15+01:00"
+            }
+        ],
+        "field_pub_dc_date_created": [
+            {
+                "value": "2025-02-23T19:02:15+01:00"
+            }
+        ],
+        "field_pub_dc_date_issued": [
+            {
+                "value": "2024-12-13"
+            }
+        ],
+        "field_pub_dc_date_submitted": [
+            {
+                "value": "2025-02-23T19:02:15+01:00"
+            }
+        ],
+        "field_pub_dc_descrip_abstract": [],
+        "field_pub_dc_descrip_sponsorship": [],
+        "field_pub_dc_format_medium": [],
+        "field_pub_dc_identifier_doi": [],
+        "field_pub_dc_identifier_eur": [],
+        "field_pub_dc_identifier_isbn": [],
+        "field_pub_dc_identifier_issn": [],
+        "field_pub_dc_identifier_opoce": [],
+        "field_pub_dc_identifier_uri": [],
+        "field_pub_dc_language": [],
+        "field_pub_dc_publisher": [
+            {
+                "value": "RPCA"
+            }
+        ],
+        "field_pub_dc_rel_ispartofseries": [],
+        "field_pub_dc_type": [],
+        "field_pub_files_ref": [],
+        "field_pub_links": [
+            {
+                "uri": "https://www.cilss.int/2024/12/23/nouakchott-mautinatiele-11-13-decembre-2024-concertation-technique-du-dispositif-regional-de-prevention-et-de-gestion-des-crises-alimentaires-pregec/",
+                "title": "Avis PREGEC, Décembre 2024",
+                "options": []
+            }
+        ],
+        "field_pub_pubsy_identities": [],
+        "field_pub_type": [],
+        "field_related_major_event": [],
+        "field_related_organisations": [
+            {
+                "target_id": 4846,
+                "target_type": "node",
+                "target_uuid": "223eb934-3258-46f8-9d19-09a4d0b1ab84",
+                "url": "/organisation/oecd-organisation-economic-co-operation-development_en"
+            },
+            {
+                "target_id": 4972,
+                "target_type": "node",
+                "target_uuid": "5f60cbce-9721-4adf-a34e-f26bef44c1b5",
+                "url": "/organisation/world-bank_en"
+            },
+            {
+                "target_id": 5037,
+                "target_type": "node",
+                "target_uuid": "644606e6-57b3-4d6a-89b7-0b6d3d79bfd4",
+                "url": "/organisation/ec-european-commission_en"
+            }
+        ],
+        "field_related_working_group": [],
+        "field_search_highlight": [
+            {
+                "value": false
+            }
+        ],
+        "field_search_highlight_image": [],
+        "field_search_highlight_ks": [],
+        "field_show_content_author": [
+            {
+                "value": true
+            }
+        ],
+        "field_suggest_item_to_other_ks": []
+    },
+    {
+        "nid": [
+            {
+                "value": 77711
+            }
+        ],
+        "uuid": [
+            {
+                "value": "b5b08e71-bff2-4127-8ab7-f6db9aadd71c"
+            }
+        ],
+        "vid": [
+            {
+                "value": 344699
+            }
+        ],
+        "langcode": [
+            {
+                "value": "en"
+            }
+        ],
+        "type": [
+            {
+                "target_id": "publication",
+                "target_type": "node_type",
+                "target_uuid": "7f7e464d-eba6-4107-b849-87d8e716ccde"
+            }
+        ],
+        "revision_timestamp": [
+            {
+                "value": "2025-02-19T14:18:24+00:00",
+                "format": "Y-m-d\\TH:i:sP"
+            }
+        ],
+        "revision_uid": [
+            {
+                "target_id": 4390,
+                "target_type": "user",
+                "target_uuid": "fcc643be-439e-4d76-a912-4412a3c3f13f",
+                "url": "/user/4390_en"
+            }
+        ],
+        "status": [
+            {
+                "value": true
+            }
+        ],
+        "uid": [
+            {
+                "target_id": 4390,
+                "target_type": "user",
+                "target_uuid": "fcc643be-439e-4d76-a912-4412a3c3f13f",
+                "url": "/user/4390_en"
+            }
+        ],
+        "title": [
+            {
+                "value": "Global Energy and Climate Outlook (GECO) report"
+            }
+        ],
+        "created": [
+            {
+                "value": "2025-02-19T13:53:32+00:00",
+                "format": "Y-m-d\\TH:i:sP"
+            }
+        ],
+        "changed": [
+            {
+                "value": "2025-02-19T14:18:24+00:00",
+                "format": "Y-m-d\\TH:i:sP"
+            }
+        ],
+        "promote": [
+            {
+                "value": false
+            }
+        ],
+        "sticky": [
+            {
+                "value": false
+            }
+        ],
+        "default_langcode": [
+            {
+                "value": true
+            }
+        ],
+        "revision_translation_affected": [
+            {
+                "value": true
+            }
+        ],
+        "moderation_state": [
+            {
+                "value": "published"
+            }
+        ],
+        "ds_switch": [],
+        "gt_term_reference": [
+            {
+                "target_id": 2550,
+                "target_type": "taxonomy_term",
+                "target_uuid": "5507bb51-4758-4c50-ac66-3dadadb8900b",
+                "url": "/taxonomy/term/2550_en"
+            }
+        ],
+        "computed_field_ks_metadata": [
+            {
+                "value": null,
+                "format": null,
+                "processed": ""
+            }
+        ],
+        "computed_field_ks_no_metadata": [
+            {
+                "value": null,
+                "format": null,
+                "processed": ""
+            }
+        ],
+        "scheduled_delete": [],
+        "metatag": [
+            {
+                "tag": "meta",
+                "attributes": {
+                    "name": "title",
+                    "content": "Global Energy and Climate Outlook (GECO) report | Knowledge for policy"
+                }
+            },
+            {
+                "tag": "meta",
+                "attributes": {
+                    "name": "description",
+                    "content": "An annual publication of the JRC, produced in close collaboration with the Directorate-General for Climate Action. Based on quantified assessment by the JRC's internal energy-economics teams, GECO provides a global picture of energy markets as they transform over the next decades, under the simultaneous interactions of economic development, technological innovation and climate policies."
+                }
+            },
+            {
+                "tag": "link",
+                "attributes": {
+                    "rel": "canonical",
+                    "href": "https://knowledge4policy.ec.europa.eu/publication/global-energy-climate-outlook-geco-report_en"
+                }
+            },
+            {
+                "tag": "meta",
+                "attributes": {
+                    "name": "@type",
+                    "content": "WebPage",
+                    "group": "schema_web_page",
+                    "schema_metatag": true
+                }
+            },
+            {
+                "tag": "meta",
+                "attributes": {
+                    "name": "@id",
+                    "content": "https://knowledge4policy.ec.europa.eu/publication/global-energy-climate-outlook-geco-report_en",
+                    "group": "schema_web_page",
+                    "schema_metatag": true
+                }
+            },
+            {
+                "tag": "meta",
+                "attributes": {
+                    "name": "description",
+                    "content": "Global Energy and Climate Outlook (GECO) report",
+                    "group": "schema_web_page",
+                    "schema_metatag": true
+                }
+            },
+            {
+                "tag": "meta",
+                "attributes": {
+                    "name": "author",
+                    "content": {
+                        "@type": "Organization",
+                        "name": "Bioeconomy",
+                        "url": "https://knowledge4policy.ec.europa.eu/bioeconomy_en"
+                    },
+                    "group": "schema_web_page",
+                    "schema_metatag": true
+                }
+            }
+        ],
+        "path": [
+            {
+                "alias": "/publication/global-energy-climate-outlook-geco-report",
+                "pid": 79333,
+                "langcode": "en"
+            }
+        ],
+        "publish_on": [],
+        "unpublish_on": [],
+        "publish_state": [],
+        "unpublish_state": [],
+        "content_translation_source": [
+            {
+                "value": "und"
+            }
+        ],
+        "content_translation_outdated": [
+            {
+                "value": false
+            }
+        ],
+        "body": [
+            {
+                "value": "",
+                "format": "full_html",
+                "processed": "",
+                "summary": "An annual publication of the JRC, produced in close collaboration with the Directorate-General for Climate Action. Based on quantified assessment by the JRC's internal energy-economics teams, GECO provides a global picture of energy markets as they transform over the next decades, under the simultaneous interactions of economic development, technological innovation and climate policies."
+            }
+        ],
+        "feeds_item": [],
+        "field_comment": [
+            {
+                "status": 1,
+                "cid": 0,
+                "last_comment_timestamp": 1739973488,
+                "last_comment_name": null,
+                "last_comment_uid": 4390,
+                "comment_count": 0
+            }
+        ],
+        "field_copyright": [],
+        "field_det": [
+            {
+                "target_id": "http://data.europa.eu/uxp/2498",
+                "target_type": "skos_concept",
+                "target_uuid": "http://data.europa.eu/uxp/2498",
+                "url": "/admin/structure/skos_concept/http_e_f_fdata_ceuropa_ceu_fuxp_f2498_en"
+            },
+            {
+                "target_id": "2985"
+            },
+            {
+                "target_id": "http://data.europa.eu/uxp/754",
+                "target_type": "skos_concept",
+                "target_uuid": "http://data.europa.eu/uxp/754",
+                "url": "/admin/structure/skos_concept/http_e_f_fdata_ceuropa_ceu_fuxp_f754_en"
+            },
+            {
+                "target_id": "2898"
+            },
+            {
+                "target_id": "http://data.europa.eu/uxp/5650",
+                "target_type": "skos_concept",
+                "target_uuid": "http://data.europa.eu/uxp/5650",
+                "url": "/admin/structure/skos_concept/http_e_f_fdata_ceuropa_ceu_fuxp_f5650_en"
+            },
+            {
+                "target_id": "http://data.europa.eu/uxp/3139",
+                "target_type": "skos_concept",
+                "target_uuid": "http://data.europa.eu/uxp/3139",
+                "url": "/admin/structure/skos_concept/http_e_f_fdata_ceuropa_ceu_fuxp_f3139_en"
+            },
+            {
+                "target_id": "http://data.europa.eu/uxp/435061",
+                "target_type": "skos_concept",
+                "target_uuid": "http://data.europa.eu/uxp/435061",
+                "url": "/admin/structure/skos_concept/http_e_f_fdata_ceuropa_ceu_fuxp_f435061_en"
+            },
+            {
+                "target_id": "http://data.europa.eu/uxp/4892",
+                "target_type": "skos_concept",
+                "target_uuid": "http://data.europa.eu/uxp/4892",
+                "url": "/admin/structure/skos_concept/http_e_f_fdata_ceuropa_ceu_fuxp_f4892_en"
+            },
+            {
+                "target_id": "http://data.europa.eu/uxp/c_c9724a74",
+                "target_type": "skos_concept",
+                "target_uuid": "http://data.europa.eu/uxp/c_c9724a74",
+                "url": "/admin/structure/skos_concept/http_e_f_fdata_ceuropa_ceu_fuxp_fc_ac9724a74_en"
+            },
+            {
+                "target_id": "http://data.europa.eu/uxp/2527",
+                "target_type": "skos_concept",
+                "target_uuid": "http://data.europa.eu/uxp/2527",
+                "url": "/admin/structure/skos_concept/http_e_f_fdata_ceuropa_ceu_fuxp_f2527_en"
+            }
+        ],
+        "field_exclude_entity_from_search": [
+            {
+                "value": false
+            }
+        ],
+        "field_expand_more_information": [
+            {
+                "value": false
+            }
+        ],
+        "field_geographic_coverage": [
+            {
+                "target_id": 1349,
+                "target_type": "taxonomy_term",
+                "target_uuid": "a5368e11-8389-44dc-97de-aeccd7707a16",
+                "url": "/taxonomy/term/1349_en"
+            },
+            {
+                "target_id": 1341,
+                "target_type": "taxonomy_term",
+                "target_uuid": "1837f98a-d7c5-4278-8e43-e59b0b6a80e4",
+                "url": "/taxonomy/term/1341_en"
+            }
+        ],
+        "field_intermediary_page": [
+            {
+                "value": false
+            }
+        ],
+        "field_internal_note": [],
+        "field_ks_related_topics": [],
+        "field_last_update": [
+            {
+                "value": "2025-02-19"
+            }
+        ],
+        "field_legacy_link": [
+            {
+                "uri": "https://joint-research-centre.ec.europa.eu/scientific-activities-z/geco_en",
+                "title": "",
+                "options": []
+            }
+        ],
+        "field_media_ref_image": [],
+        "field_newsroom_feed": [
+            {
+                "value": false
+            }
+        ],
+        "field_overwrite_published_date": [],
+        "field_parent_nav_page": [],
+        "field_preserve_last_update_date": [
+            {
+                "value": false
+            }
+        ],
+        "field_project_activity": [],
+        "field_pub_dc_contributor_authors": [],
+        "field_pub_dc_date_accessioned": [
+            {
+                "value": "2025-02-19T14:34:51+01:00"
+            }
+        ],
+        "field_pub_dc_date_available": [
+            {
+                "value": "2025-02-19T14:34:51+01:00"
+            }
+        ],
+        "field_pub_dc_date_created": [
+            {
+                "value": "2025-02-19T14:34:51+01:00"
+            }
+        ],
+        "field_pub_dc_date_issued": [
+            {
+                "value": "2025-02-19"
+            }
+        ],
+        "field_pub_dc_date_submitted": [
+            {
+                "value": "2025-02-19T14:34:51+01:00"
+            }
+        ],
+        "field_pub_dc_descrip_abstract": [],
+        "field_pub_dc_descrip_sponsorship": [],
+        "field_pub_dc_format_medium": [],
+        "field_pub_dc_identifier_doi": [],
+        "field_pub_dc_identifier_eur": [],
+        "field_pub_dc_identifier_isbn": [],
+        "field_pub_dc_identifier_issn": [],
+        "field_pub_dc_identifier_opoce": [],
+        "field_pub_dc_identifier_uri": [],
+        "field_pub_dc_language": [],
+        "field_pub_dc_publisher": [],
+        "field_pub_dc_rel_ispartofseries": [],
+        "field_pub_dc_type": [],
+        "field_pub_files_ref": [],
+        "field_pub_links": [],
+        "field_pub_pubsy_identities": [],
+        "field_pub_type": [
+            {
+                "target_id": 1519,
+                "target_type": "taxonomy_term",
+                "target_uuid": "29c6c7f4-b94d-4511-bd65-5760056341f8",
+                "url": "/taxonomy/term/1519_en"
+            }
+        ],
+        "field_related_major_event": [],
+        "field_related_organisations": [
+            {
+                "target_id": 4865,
+                "target_type": "node",
+                "target_uuid": "810657f2-a283-4dfd-8470-1c1ed0336208",
+                "url": "/organisation/jrc-joint-research-centre_en"
+            },
+            {
+                "target_id": 4877,
+                "target_type": "node",
+                "target_uuid": "0cbab13b-f605-425f-8343-672e4eb39bf5",
+                "url": "/organisation/dg-clima-dg-climate-action_en"
+            }
+        ],
+        "field_related_working_group": [],
+        "field_search_highlight": [
+            {
+                "value": false
+            }
+        ],
+        "field_search_highlight_image": [],
+        "field_search_highlight_ks": [],
+        "field_show_content_author": [
+            {
+                "value": false
+            }
+        ],
+        "field_suggest_item_to_other_ks": []
+    }
+]

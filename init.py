@@ -5,9 +5,12 @@ import os
 # Importar configuración
 from src.config import load_config
 import json
+import random
 
 # Cargar configuración
+print("cargamos config")
 config = load_config()
+print("cargamos config terminada")
 proxies = { 
               "http"  : "http://madrovi:Data123$@ps-sev-sys.cec.eu.int:8012", 
               "https" :"http://madrovi:Data123$@ps-sev-sys.cec.eu.int:8012"
@@ -27,6 +30,7 @@ def configure_proxy():
 
 def main():
     # Inicializar el pipeline RAG
+    print("main")
     pipeline = RAGPipeline()
     
     # Recuperar datos de la API
@@ -44,8 +48,13 @@ def main():
     with open(archivo_json, 'r', encoding='utf-8') as archivo:
         publications = json.load(archivo)
 
-    # Imprimir los datos leídos
-    print(publications)
+
+    # Seleccionar una muestra aleatoria de 5 publicaciones
+    muestra = random.sample(publications, 5)
+
+    # Guardar la muestra en un nuevo archivo JSON
+    with open('muestra_publicaciones.json', 'w', encoding='utf-8') as archivo_salida:
+        json.dump(muestra, archivo_salida, ensure_ascii=False, indent=4)
 
     # Extraer contenido relevante
     processed_documents = []
